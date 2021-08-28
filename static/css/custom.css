@@ -1,4 +1,5 @@
-/* give map labels some room, toroidal maps are small */
+
+/* give map labels some room */
 #zone1label, #zone2label {
     margin-bottom: 25px;
 }
@@ -75,13 +76,6 @@ footer {
     margin-top: 120px;
 }
 
-.table thead th, .table td {
-    border-top: 1px solid #666;
-}
-
-.table th {
-    border-top: 2px solid #111;
-}
 
 
 /****************************
@@ -92,9 +86,12 @@ footer {
   margin-top: 0px;
 }
 
-.league-standings-league-header-text {
-  margin-top: 60px;
-  margin-bottom: 30px;
+.league-standings-league-header-row {
+    margin-top:    20px;
+}
+.league-standings-division-header-row {
+    margin-top:    35px;
+    margin-bottom: 10px;
 }
 
 .postseason-toc-text {
@@ -222,9 +219,29 @@ div.vspace40 {
  * standings page
  ****************************/
 
-span.standings-record {
+span.standings-w23lrecord, span.standings-rainbows {
     font-size: 110%;
 }
+
+table.standings-table thead th {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+table.standings-table {
+  margin-bottom: 0px;
+}
+
+table.standings-table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid rgba(0, 0, 0, 0.6);
+  border-bottom: 0px;
+}
+
+
 
 /****************************
  * maps page
