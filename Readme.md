@@ -1,8 +1,8 @@
-# gollyx-toroidal-pelican-theme
+# gollyx-rainbow-pelican-theme
 
-Pelican theme for the the GollyX Toroidal Cup website.
+Pelican theme for the the GollyX Rainbow Cup website.
 
-Basically a clone of <https://github.com/golly-splorts/golly-pelican-theme> with some minor tweaks.
+Basically a clone of <https://github.com/golly-splorts/golly-toroidal-theme> with some minor tweaks.
 
 The Pelican theme consists of all elements of the UI that are common to
 all pages of the Golly UI.
@@ -15,19 +15,17 @@ To install the theme:
 git clone <this repo>
 
 # If theme is not installed, install it
-pelican-themes -i gollyx-toroidal-pelican-theme
+pelican-themes -i gollyx-rainbow-pelican-theme
 
 # If theme is installed, update it
-pelican-themes -U gollyx-toroidal-pelican-theme
+pelican-themes -U gollyx-rainbow-pelican-theme
 ```
 
 ## Usage
 
-To use this Pelican theme, set the theme to `gollyx-toroidal-pelican-theme`
+To use this Pelican theme, set the theme to `gollyx-rainbow-pelican-theme`
 in `pelican.conf`.
 
 ```
-THEME = 'gollyx-toroidal-pelican-theme'
+THEME = 'gollyx-rainbow-pelican-theme'
 ```
-
-See readme for golly-pelican-theme (link at top) for more.
