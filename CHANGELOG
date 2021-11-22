@@ -1,3 +1,8 @@
+Version 51:
+
+* remove fontawesome (unused)
+* add css classes that will disappear when (in future) upgrading from Bootstrap 4 to Bootstrap 5
+
 Version 42:
 
 * Refresh for release of new cups
